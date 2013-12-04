@@ -9,6 +9,8 @@ public class BoLTestPlugin  extends JavaPlugin{
 
 	public void onEnable() {
 		this.pm = this.getServer().getPluginManager();
+		this.getCommand("soulbind").setExecutor(new CommandSoulbind(this));
+		this.pm.registerEvents(new ListenerSoulbind(this), this);
 	}
 	
 

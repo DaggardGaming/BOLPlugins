@@ -1,7 +1,10 @@
 name: BoLTestPlugin
 main: com.bol.BoLTestPlugin
 authors: [Scyntrus]
-version: 1.0
+version: 0.0.1
 depends:
 commands:
+    soulbind:
+        description: Make an item soulbound
+        usage: "/soulbind"
 permissions:
