@@ -1,0 +1,7 @@
+name: BoLTestPlugin
+main: com.bol.BoLTestPlugin
+authors: [Scyntrus]
+version: 1.0
+depends:
+commands:
+permissions:
